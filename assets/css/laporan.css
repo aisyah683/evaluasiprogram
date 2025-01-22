@@ -1,0 +1,32 @@
+/* tanda tangan */
+#footer {
+  margin-top: 50px;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: end; /* Center the content horizontally within the footer */
+}
+
+#sign {
+  margin-top: 100px;
+  font-weight: bold;
+  font-family: "Brush Script MT", cursive; /* Use a cursive font for the signature effect */
+}
+
+.left {
+  margin-right: 40px;
+}
+
+.right {
+  margin-right: 50px;
+}
+
+@media print {
+  #footer p {
+    font-size: 14px;
+  }
+
+  #sign {
+    margin-top: 80px;
+  }
+}
